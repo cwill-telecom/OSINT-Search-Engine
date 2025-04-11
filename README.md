@@ -36,7 +36,7 @@ This command-line tool allows cybersecurity analysts and OSINT researchers to qu
 No installation needed. Just clone or download the script and run it with Python 3:
 
 ```bash
-python cyber_search.py <term> -e <engine1> <engine2> ...
+python news_search.py <term> -e <engine1> <engine2> ...
 ```
 
 ---
@@ -45,22 +45,22 @@ python cyber_search.py <term> -e <engine1> <engine2> ...
 
 ### Search for a single IP in multiple engines:
 ```bash
-python cyber_search.py 8.8.8.8 -e shodan abuseipdb greynoise
+python news_search.py 8.8.8.8 -e shodan abuseipdb greynoise
 ```
 
 ### Check if an email has been in a data breach:
 ```bash
-python cyber_search.py someone@example.com -e haveibeenpwned intelx
+python news_search.py someone@example.com -e haveibeenpwned intelx
 ```
 
 ### Search for a hash or domain in malware databases:
 ```bash
-python cyber_search.py abcdef123456... -e virustotal threatminer
+python news_search.py abcdef123456... -e virustotal threatminer
 ```
 
 ### List all supported engines:
 ```bash
-python cyber_search.py anything -l
+python news_search.py anything -l
 ```
 
 ---
